@@ -10,8 +10,6 @@ inputs:
   - name: ci
 
 run:
-  path: package
-  args:
-    - install
-    - nano
+  path: ci/ci/scripts/install-nano
+
           
