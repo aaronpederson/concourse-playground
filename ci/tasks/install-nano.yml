@@ -1,0 +1,16 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+
+source:
+  repository: colstrom/alpine
+  inputs:
+    - name: ci
+  run:
+    path: package
+    args:
+      - install
+      - nano
+          
